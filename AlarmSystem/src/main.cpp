@@ -1,14 +1,8 @@
-// COMP-10184 – Mohawk College
+
 // AlarmSystem
-//
 // This program represents an alarm system. When montion detected, alarm countdown starts. User can deactive the alarm by pressing the button.
 // If the button is not pressed within 10s, the alarm will be triggered. The alarm can be reset by pressing the button.
-//
-// @author  Yizhe Feng  @id 000798153
-//
-// I created this work and I have not shared it with anyone else.
-//
-//stage 5 completed
+
 
 #include <Arduino.h>
 // digital input pin definitions
