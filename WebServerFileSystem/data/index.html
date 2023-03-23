@@ -1,0 +1,33 @@
+<!--index page-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Temperature</title>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>'
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="mystyle.css">
+  </head>
+  <body>
+        <div calss="container">
+            <h3>Current Time</h3>
+            <h2 id="currentTime"></h2>
+            <h3>Current Temperature</h3>
+            <h1 id="currentTemp"></h1>
+
+            <!-- toggle button-->
+            <label class="toggle">
+              <input type="checkbox" id="tempFormat">
+              <span class="slider"></span>
+              <span class="labels" data-on="°F" data-off="°C"></span>
+            </label>
+
+          </div>
+        
+          <div class="info">
+            <p>Sensor ID: <span id="sensorId"></span></p>
+          </div>
+        </div>
+  
+  </body>
+</html>
